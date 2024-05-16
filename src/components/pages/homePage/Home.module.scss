@@ -1,0 +1,276 @@
+.home {
+  margin-bottom: 220px;
+
+  @media (max-width: 1028px) {
+    margin-bottom: 550px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+
+    .shadow {
+      -webkit-box-shadow: -100px 10px 300px 106px rgba(35, 83, 71, 0.82);
+      -moz-box-shadow: -100px 10px 300px 106px rgba(35, 83, 71, 0.82);
+      box-shadow: -100px 10px 300px 106px rgba(35, 83, 71, 0.82);
+    }
+
+    .shadowTwo {
+      -webkit-box-shadow: 800px -250px 300px 150px rgba(35, 83, 71, 0.82);
+      -moz-box-shadow: 800px -250px 300px 150px rgba(35, 83, 71, 0.82);
+      box-shadow: 800px -250px 200px 100px rgba(35, 83, 71, 0.82);
+    }
+
+    .shadowThree {
+      -webkit-box-shadow: 500px 350px 100px 70px rgba(35, 83, 71, 0.82);
+      -moz-box-shadow: 500px 350px 100px 70px rgba(35, 83, 71, 0.82);
+      box-shadow: 500px 350px 100px 70px rgba(35, 83, 71, 0.82);
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+
+      @media (max-width: 1028px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 170px;
+        position: absolute;
+        right: 120px;
+      }
+
+      @media (max-width: 906.40px) {
+        position: absolute;
+        right: 90px;
+      }
+
+      @media (max-width: 855.20px) {
+        position: absolute;
+        right: 60px;
+      }
+
+      @media (max-width: 803.20px) {
+        position: absolute;
+        right: 30px;
+      }
+
+      @media (max-width: 754.40px) {
+        position: absolute;
+        right: 0px;
+      }
+
+      h2 {
+        color: #235347;
+
+        @media (max-width: 1231.40px) {
+          font-size: 20px;
+        }
+      }
+
+      p {
+        width: 100%;
+        max-width: 660px;
+
+        @media (max-width: 1231.40px) {
+          font-size: 15px;
+        }
+      }
+
+      h1 {
+        margin-bottom: 15px;
+        font-size: 50px;
+
+        @media (max-width: 1231.40px) {
+          font-size: 35px;
+        }
+
+        span {
+          position: relative;
+
+          &::before {
+            content: "Junior Web Developer";
+            color: #235347;
+            animation: words 20s infinite;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            width: calc(100% + 8px);
+            height: 100%;
+            border-left: 2px solid #235347;
+            background-color: #121212;
+            right: -8px;
+            animation: cursor .8s infinite, typing 20s steps(14) infinite;
+          }
+
+          @keyframes cursor {
+            to {
+              border-left: 2px solid #23534700;
+            }
+          }
+
+          @keyframes words {
+
+            0%,
+            20% {
+              content: "Front-End Developer";
+            }
+
+            21%,
+            40% {
+              content: "Teenager";
+            }
+
+            41%,
+            60% {
+              content: "Junior Web Developer";
+            }
+
+            61%,
+            80% {
+              content: "Pupil";
+            }
+          }
+
+          @keyframes typing {
+
+            10%,
+            15%,
+            30%,
+            35%,
+            50%,
+            55%,
+            70%,
+            75%,
+            90%,
+            95% {
+              width: 0;
+            }
+
+            5%,
+            20%,
+            25%,
+            40%,
+            45%,
+            60%,
+            65%,
+            80%,
+            85% {
+              width: calc(100% + 8px);
+            }
+          }
+        }
+      }
+
+      button {
+        margin-top: 20px;
+        background-color: transparent;
+        border: 2px solid #235347;
+        padding: 8px 12px;
+        color: #235347;
+        font-size: 25px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+
+    }
+
+    .image {
+      position: absolute;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+
+      @media (max-width: 1028px) {
+        position: absolute;
+        bottom: 600px;
+        right: 1320px;
+      }
+
+      @media (max-width: 906.40px) {
+        position: absolute;
+        right: 1280px;
+      }
+
+      @media (max-width: 855.20px) {
+        position: absolute;
+        right: 1240px;
+      }
+
+      @media (max-width: 803.20px) {
+        position: absolute;
+        right: 1200px;
+      }
+
+      @media (max-width: 754.40px) {
+        position: absolute;
+        right: 1190px;
+      }
+
+
+      .background_fire {
+        position: absolute;
+        z-index: -1;
+        left: 730px;
+        top: -350px;
+
+        @media (max-width: 1231.40px) {
+          width: 450px;
+          height: 500px;
+          top: -190px;
+          left: 750px;
+        }
+
+        @media (max-width: 1148px) {
+          width: 450px;
+          height: 500px;
+          top: -190px;
+          left: 650px;
+        }
+
+        @media (max-width: 1080px) {
+          width: 450px;
+          height: 500px;
+          top: -190px;
+          left: 650px;
+        }
+      }
+
+      .myImage {
+        position: absolute;
+        left: 800px;
+        top: 1px;
+        border-radius: 300px;
+        margin-top: -330px;
+        transition: transform 0.3s ease-in-out;
+
+        @media (max-width: 1231.40px) {
+          width: 320px;
+          height: 400px;
+          top: 150px;
+        }
+
+        @media (max-width: 1148px) {
+          top: 150px;
+          left: 750px;
+        }
+
+        @media (max-width: 1148px) {
+          left: 700px;
+        }
+
+        &:hover {
+          filter: brightness(1.5) drop-shadow(30px 30px rgba(0, 0, 0, 0.7));
+          transform: translate(-10px, -10px);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,244 @@
+.techstack {
+margin-bottom: 200px;
+
+  .container {
+    .content {
+      .heading {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+
+        h1 {
+          font-size: 60px;
+          color: #235347;
+          margin-bottom: 50px;
+        }
+
+        img {
+          margin-bottom: 50px;
+        }
+      }
+
+      p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 300px;
+      }
+
+      .notebook_image {
+        display: flex;
+        justify-content: center;
+
+        img {
+          height: 300px;
+        }
+      }
+
+      .techstack {
+        display: flex;
+        justify-content: center;
+
+        .connectLine {
+          position: absolute;
+          z-index: -1;
+          margin-top: -307px;
+          width: 25px;
+          height: 49px;
+        }
+
+        .connectLine_2 {
+          position: absolute;
+          z-index: -1;
+          height: 120px;
+          width: 25px;
+          transform: rotate(55deg);
+          margin-top: -430px;
+          margin-left: 149px;
+        }
+
+        .connectLine_3 {
+          position: absolute;
+          z-index: -1;
+          height: 120px;
+          width: 25px;
+          transform: rotate(-55deg);
+          margin-top: -430px;
+          margin-right: 149px;
+        }
+
+        .connectLine_4 {
+          position: absolute;
+          z-index: -1;
+          height: 220px;
+          width: 25px;
+          transform: rotate(-105deg);
+          margin-right: 230px;
+          margin-top: -405px;
+        }
+
+        .connectLine_5 {
+          position: absolute;
+          z-index: -1;
+          height: 220px;
+          width: 25px;
+          transform: rotate(105deg);
+          margin-left: 230px;
+          margin-top: -405px;
+        }
+
+        .connectLine_6 {
+          position: absolute;
+          z-index: -1;
+          width: 25px;
+          height: 80px;
+          margin-top: -240px;
+          margin-left: 470px;
+        }
+
+        .connectLine_7 {
+          position: absolute;
+          z-index: -1;
+          width: 25px;
+          height: 80px;
+          margin-top: -240px;
+          margin-right: 470px;
+        }
+
+        .connectLine_8 {
+          position: absolute;
+          z-index: -1;
+          width: 25px;
+          height: 220px;
+          margin-top: -405px;
+          margin-right: 710px;
+          transform: rotate(105deg);
+        }
+
+        .connectLine_9 {
+          position: absolute;
+          z-index: -1;
+          width: 25px;
+          height: 220px;
+          margin-top: -405px;
+          margin-left: 710px;
+          transform: rotate(-105deg);
+        }
+
+        .connectLine_10 {
+          position: absolute;
+          z-index: -1;
+          height: 120px;
+          width: 25px;
+          transform: rotate(55deg);
+          margin-top: -510px;
+          margin-right: 149px;
+        }
+
+        .connectLine_11 {
+          position: absolute;
+          z-index: -1;
+          height: 120px;
+          width: 25px;
+          transform: rotate(-55deg);
+          margin-top: -510px;
+          margin-left: 149px;
+        }
+
+        .connectLine_12 {
+          position: absolute;
+          z-index: -1;
+          width: 25px;
+          height: 325px;
+          margin-top: -535px;
+          margin-right: 627px;
+          transform: rotate(-105deg);
+        }
+
+        .connectLine_13 {
+          position: absolute;
+          z-index: -1;
+          width: 25px;
+          height: 325px;
+          margin-top: -535px;
+          margin-left: 627px;
+          transform: rotate(105deg);
+        }
+
+        .e_background {
+          position: absolute;
+          margin-top: -375px;
+        }
+
+        .e_background_2 {
+          position: absolute;
+          margin-top: -445px;
+          margin-left: 300px;
+        }
+
+        .e_background_3 {
+          position: absolute;
+          margin-top: -445px;
+          margin-right: 300px;
+        }
+
+        .e_background_4 {
+          position: absolute;
+          margin-top: -305px;
+          margin-right: 471px;
+        }
+
+        .e_background_5 {
+          position: absolute;
+          margin-top: -305px;
+          margin-left: 471px;
+        }
+
+        .e_background_6 {
+          position: absolute;
+          margin-right: 471px;
+          margin-top: -170px;
+        }
+
+        .e_background_7 {
+          position: absolute;
+          margin-left: 471px;
+          margin-top: -170px;
+        }
+
+        .e_background_8 {
+          position: absolute;
+          margin-right: 950px;
+          margin-top: -360px;
+        }
+
+        .e_background_9 {
+          position: absolute;
+          margin-left: 950px;
+          margin-top: -360px;
+        }
+
+        .e_background_10 {
+          position: absolute;
+          margin-top: -515px;
+        }
+
+        .stack_background {
+          background-color: transparent;
+          border-radius: 300px;
+          padding: 15px;
+          border: 5px solid #235347;
+          transition: box-shadow 0.3s ease, filter 0.3s ease;
+          cursor: pointer;
+
+          &:hover {
+            box-shadow: 0 0 10px #133c33, 0 0 20px #133c33, 0 0 30px #133c33, 0 0 40px #133c33, 0 0 50px #133c33, 0 0 60px #133c33, 0 0 70px #133c33;
+            filter: brightness(150%);
+          }
+        }
+      }
+
+    }
+  }
+}

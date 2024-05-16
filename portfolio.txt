@@ -1,0 +1,51 @@
+PORTFOLIO - STRUCTURE:
+===============================
+Themes:
+- Home
+- About Me
+- Tech Stack
+- Experience
+- Contact
+
+============================
+About me:
+I was born in Kyrgyzstan, in Bishkek, but when I was 3, I moved to Germany, where I live now. I can speak Kyrgyz, Russian, German, and English, and I can also translate basic Latin texts.
+Around 13 or 14, I wanted to make simple games on Roblox to earn money. I tried learning the "Lua" programming language by myself, but it was tough, so I gave up. After a few years, my dad suggested my mom learn programming. They found a course called Peaksoft in Kyrgyzstan and paid for her to study for 9 months.
+But after the first class, my mom realized IT wasn't her thing. She asked if I wanted to take over since the course was already paid for. Knowing it would be hard for my mom, I decided to study in her place. After 6 months, I'm happy I chose to study. Now, I can make simple websites, and it's really cool!
+
+=============================
+
+Tech Stack:
+- HTML             | X
+- CSS              | X
+- SCSS             | X
+- JavaScript       | X
+- React            | X
+- Redux            | X
+- Typescript       | X
+- Vite             | X
+- Windows          | X
+- Node.js          | X
+
+https://cdn.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg
+
+
+================================
+
+Experience:
+
+~ Cards: ~
+1. Image
+2. Name
+3. Description
+4. My rating
+
+
+~ Stars: ~
+
+- 5 
+- 4.5
+- 3.5
+- 2
+- 4.5 
+- 1
